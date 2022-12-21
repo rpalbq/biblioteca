@@ -12,10 +12,11 @@ Catalogação dos meus livros para organização e acompanhamento da coleção.
 ---
 ## Modelo Conceitual 
 
-
+![Modelo Conceitual ](modelagem/modelo-conceitual.jpg)
 
 
 
 
 ---
 ## Modelo Relacional 
+![Modelo Relacional](modelagem/modelo-relacional.png)
