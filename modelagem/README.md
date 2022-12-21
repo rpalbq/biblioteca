@@ -2,5 +2,5 @@
 
 ---
 Contém os arquivos:
-* Modelo conceitual em png
+* Modelo conceitual em xml e jpg
 * Modelo relacional em png e .mwb
