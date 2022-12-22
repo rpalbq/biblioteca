@@ -95,3 +95,26 @@ INSERT INTO genero_autor(descricao) VALUES ('Masculino');
 INSERT INTO genero_autor(descricao) VALUES ('Feminino');
 INSERT INTO genero_autor(descricao) VALUES ('Desconhecido');
 
+
+ INSERT INTO genero(descricao) VALUES ('Ação'),
+ ('Ficção Científica'),
+ ('Drama'),
+ ('Comédia'),
+ ('Romance'),
+ ('Aventura'),
+ ('Mistério'),
+ ('Suspense'),
+ ('Fantasia'),
+ ('Terror'),
+ ('Ficção'),
+ ('Poesia'),
+ ('Distopia'),
+ ('Conto'),
+ ('Acadêmico'),
+ ('Religioso'),
+ ('Biografia'),
+ ('Desenvolvimento Pessoal'), 
+ ('Lgbt'),
+ ('Literatura Infantil'),
+ ('Crônica');
+
