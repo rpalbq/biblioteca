@@ -85,3 +85,13 @@ PRIMARY KEY(idnota),
 FOREIGN KEY(idlivro) REFERENCES livro(idlivro)
 );
 
+-- POVOANDO TABELAS 
+
+INSERT INTO formato(descricao) VALUES ('Físico');
+INSERT INTO formato(descricao) VALUES ('Kindle');
+
+
+INSERT INTO genero_autor(descricao) VALUES ('Masculino');
+INSERT INTO genero_autor(descricao) VALUES ('Feminino');
+INSERT INTO genero_autor(descricao) VALUES ('Desconhecido');
+
