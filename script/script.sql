@@ -125,3 +125,15 @@ INSERT INTO genero_autor(descricao) VALUES ('Desconhecido');
 ('Light Novel'),
 ('Manhwa');
 
+
+INSERT INTO pais_origem(pais) VALUES ('Brasil'),
+('França'),
+('Estados Unidos'),
+('Japão'),
+('Irlanda'),
+('Reino Unido'),
+('Itália'),
+('República Tcheca'),
+('Portugal'),
+('Coreia do Sul');
+
