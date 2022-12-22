@@ -117,4 +117,11 @@ INSERT INTO genero_autor(descricao) VALUES ('Desconhecido');
  ('Lgbt'),
  ('Literatura Infantil'),
  ('Crônica');
+ 
+ 
+ INSERT INTO classificacao(descricao) VALUES ('Livro'),
+('HQ'),
+('Mangá'),
+('Light Novel'),
+('Manhwa');
 
