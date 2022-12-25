@@ -1,3 +1,7 @@
+
+-- CRIANDO BANCO DE DADOS E TABELAS
+
+
 CREATE DATABASE biblioteca;
 USE biblioteca;
 
@@ -85,7 +89,11 @@ PRIMARY KEY(idnota),
 FOREIGN KEY(idlivro) REFERENCES livro(idlivro)
 );
 
--- POVOANDO TABELAS 
+
+
+
+-- POVOANDO TABELAS FORMATO, GENERO_AUTOR E GENERO
+
 
 INSERT INTO formato(descricao) VALUES ('Físico');
 INSERT INTO formato(descricao) VALUES ('Kindle');
@@ -117,6 +125,10 @@ INSERT INTO genero_autor(descricao) VALUES ('Desconhecido');
  ('Lgbt'),
  ('Literatura Infantil'),
  ('Crônica');
+ 
+ 
+ 
+ -- POVOANDO TABELAS CLASSIFICACAO, PAIS_ORIGEM E EDITORA
  
  
  INSERT INTO classificacao(descricao) VALUES ('Livro'),
@@ -184,6 +196,10 @@ INSERT INTO editora(nome) VALUES ('New Pop'),
 ('HarperCollins'),
 ('José Olympio'),
 ('WMF Martins Fontes');
+
+
+
+-- POVOANDO TABELAS AUTOR, COLECAO E LIVRO 
 
 
 INSERT INTO autor (nome,genero) VALUES ('Go Nagai', 1),
@@ -463,9 +479,16 @@ INSERT INTO livro(nome,autor,editora,paginas,ano_publicado,formato,genero,pais_o
 ('Matilda', 100, 46, 260, 1988, 1, 9, 6, 1, 1, 28.40, 'SIM');
 
 
+
 -- CONSULTANDO QUAIS LIVROS FORAM LIDOS PARA POVOAR TABELA NOTA
 
+
 SELECT * FROM livro WHERE lido = 'SIM';
+
+
+
+-- POVOANDO TABELA NOTA
+
 
 INSERT INTO nota (idlivro, nota) VALUES (1, 5.00),
 (2, 3.50),
