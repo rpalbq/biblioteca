@@ -35,8 +35,8 @@ GROUP BY genero
 HAVING Count(*) > 1
 ORDER BY QtdRepeticoes DESC;
 
-
--- VALOR GASTO EM LIVROS DIVIDO POR GENERO E TOTA
+l
+-- VALOR GASTO EM LIVROS DIVIDO POR GENERO E TOTAl
 
 SELECT sum(preco) FROM livro WHERE genero = 1;
 SELECT sum(preco) FROM livro WHERE genero = 2;
