@@ -4,7 +4,7 @@
 
 SELECT * FROM autor WHERE genero = 1;
 SELECT * FROM autor WHERE genero = 2;
-SELECT * FROM autor WHERE genero = 3
+SELECT * FROM autor WHERE genero = 3;
 
 
 -- OS LIVROS MAIS CAROS DA COLEÇÃO ACIMA DE 45 REAIS
