@@ -11,7 +11,7 @@ Hospedagem: Railway
 Catalogação dos meus livros para organização e acompanhamento da coleção.
 
 ### Regras de Negócio
-Biblioteca pessoal que pode reunir várias informações interessantes sobre o livro. Podendo catalogar as editoras, autores separando por gênero, classificação, formato, coleções para acompanhar se está completa. Assim, garantindo um gerenciamento completo para os livros, retornando dados valiosos para acompanhamento da sua biblioteca. 
+Biblioteca pessoal que pode reunir várias informações interessantes sobre o livro. Podendo catalogar as editoras, autores separando por gênero, classificação, formato, coleções para acompanhar se está completa. Assim, garantindo um gerenciamento completo para os livros, retornando dados valiosos para acompanhamento da biblioteca. 
 
 
 #### Dados aceitos
